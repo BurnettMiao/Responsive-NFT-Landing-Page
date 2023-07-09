@@ -98,7 +98,7 @@ body {
   margin-right: 20px;
 }
 
-.nab-buttons.active {
+.navbar .nav-buttons.active {
   transition: all 0.3s ease;
   opacity: 1;
 }
@@ -165,7 +165,7 @@ body {
     rgba(57, 46, 75, 0.08) 98%
   );
   border-radius: 2rem;
-  animation: to left 0.8s;
+  animation: toLeft 0.8s;
 }
 
 .top-container .nft-pic {
@@ -437,5 +437,23 @@ body {
   .footer .footer-links .link p {
     font-size: 11px;
     line-height: 18px;
+  }
+}
+
+@keyframes toRight {
+  from {
+    transform: translateX(-700px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes toLeft {
+  from {
+    transform: translateX(550px);
+  }
+  to {
+    transform: translateX(0px);
   }
 }
