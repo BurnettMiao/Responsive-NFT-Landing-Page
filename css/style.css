@@ -322,6 +322,10 @@ body {
   color: #ccc;
 }
 
+.copyright {
+  text-align: center;
+}
+
 .copyright p {
   font-size: 12px;
   line-height: 36px;
